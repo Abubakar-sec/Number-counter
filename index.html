@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Count.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="outer">
+        <h1 class="heading">Counter App</h1>
+        <div class="inner"> <div class="result">0</div><div class="aurinner"></div></div>
+        <div class="btns">
+        <input type="button" class="btn" onclick="dec()" value="Decrement"></input> <i onclick="refresh()" class="fa-solid fa-arrows-rotate"></i>
+        <input type="button" class="btn" onclick="inc()" value="Increment"></input></div>
+        <input type="text" name="" placeholder="Enter value" class="num">
+        <button type="button" onclick="auto()" class="auto btn">Auto Count</button>
+    </div>
+</body>
+<script src="Count.js"></script>
+</html>
